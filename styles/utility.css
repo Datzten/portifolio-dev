@@ -1,0 +1,36 @@
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+
+/* aka text-sm */
+.maven-pro-sm {
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+/* aka text-md */
+.maven-pro-md {
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.subtitle {
+    font: var(--sub);
+}
