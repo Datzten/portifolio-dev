@@ -17,12 +17,6 @@ header {
                 border: 2px solid #E3646E;
                 padding: 4px;
             }
-            .icon {
-                position: absolute;
-                margin-block: 120px 56px;
-                bottom: 0;
-                right: 690px;
-            }
     }
     .textos {
         display: grid;
@@ -46,21 +40,28 @@ header {
             max-width: 680px;
             color: var(--gray-300);
         }
-
+    
+    }
+    .code-nav {
+        justify-content: center;
     }
     nav {
         justify-content: center;
         gap: 16px;
-        padding-inline: 143px;
+        padding-inline: 306px;
+        grid-template-columns: repeat(6, 1fr);
+        
         div {
             display: flex;
             background-color: var(--gray-400);
+            background-size: contain;
             border-radius: 999px;
             align-items: center;
             gap: 8px;
             padding: 8px 16px 8px 16px;
             color: white;
             font: var(--maven-pro-md);
+            max-width: 138px;
         }
     }
     .CaretDoubleDown {

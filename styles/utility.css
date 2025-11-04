@@ -4,14 +4,16 @@
 }
 
 .grid-flow-col {
-    grid-auto-flow: column;
+    grid-auto-columns: column;
 }
 
 .flex {
     display: flex;
 }
 
-
+.subtitle {
+    font: var(--sub);
+}
 
 
 /* aka text-sm */

@@ -12,6 +12,7 @@
 --gray-400: #292C34;
 --gray-500: #16181D;
 --gray-600: #0D0E11;
+--red: #E3646E;
 
 /* textos asap*/
 --h1: 700 56px/120% "asap", sans-serif;
@@ -24,6 +25,10 @@
 /* --text-sm: 400 14px/140 "maven-pro", sans-serif; */
 }
 
-bady {
-    margin-inline: 163px;
+body{
+    background-color: var(--gray-500);
+}
+
+main {
+    margin: 120px
 }
