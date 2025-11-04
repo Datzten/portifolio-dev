@@ -2,9 +2,6 @@
 header {
     background-image: url(/styles/assets/img/Background_Intro.png);
     background-size: cover;
-    
-    
-    
     .profile-card {
         justify-content: center;
         position: relative;
